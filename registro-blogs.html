@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff!important;
+    }
+    .logo{
+        width: 293px;
+        height: 100px;
+        vertical-align: middle;
+        border-style: none;
+        
+    }
+    .background_home{
+        background-image: url(bkg_intro.jpg);
+    display: block;
+    background-size: cover;
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+    .container {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    .formulario{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.titulo{
+    margin-left: 25%;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: #fff!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    width: 60%;
+}
+.titulo2{
+    font-size: 16px;
+    color: #fff!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.titulo3{
+    font-size: 16px;
+    color: #000!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.documento
+{
+    height: 40px;
+    width: 320px;
+    padding: 1px 2px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn{
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color:white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    background-color: #033d88!important;
+    border-block-color: blue;
+    padding: .5rem 1rem;
+    
+    line-height: 1.5;
+    border-radius: .3rem;  
+}
+
+.link{
+   color:#fff; 
+}
+
+    </style>
+
+
+    
+</head>
+<body>
+<div class="background_home" _ngcontent-c1="">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12 d-flex justify-content-sm-center justify-content-lg-start mt-2">
+            <img class="logo" alt="Logo" src="uni-logo-centered.svg"></div>
+        </div>
+    </div>
+    <div class="row pr-5 pl-5 pt-0 pb-0 mg0">
+        <div class="col-md-4 offset-md-3 mt-n2 col-sm-12 text-white">
+            <h1 class="titulo">Bienvenido al sistema de Blogs de la Universidad del Norte en convenio con MinTIC</h1><br _ngcontent-c1="">
+            <h4 class="titulo">Compartamnos información de interes a la comunidad y genere conocimiento</h4>
+        </div>
+    <div class="">
+        <form class="formulario" novalidate="">
+            <div class=""><!---->
+                <div class="">
+                    
+                    <div  class="titulo2"><label >Tipo de documento</label>
+                        <select class="titulo3" id="" required="" style="height: 40px">
+                            <optionvalue="RC">Registro Civil</option>
+                            <option value="TI">Tarjeta de identidad</option>
+                            <option value="CC">Cédula de ciudadanía</option>
+                            <option value="CE">Cédula de extranjería</option>
+                            <option value="NIT">NIT</option>
+                            <option value="NU">NUIP</option>
+                            <option value="PA">Pasaporte</option>
+                            <option value="AS">Adulto sin identificación</option>
+                            <option value="CD">Carnet Diplomatico</option>
+                            <option value="SC">Salvoconducto</option>
+                            <option value="MS">Menor sin identificación</option>
+                        </select><!----></div>
+                    
+                    
+                    <div class="titulo2 ">
+                        <label for="Documento">Correo</label>
+                        <input class="documento" required=""  type="text">
+                    </div>
+                    <div class="titulo2 ">
+                        <label for="Documento">Nombres</label>
+                        <input class="documento" required=""  type="text">
+                    </div>
+                    <div class="titulo2 ">
+                        <label for="Documento">Apellidos</label>
+                        <input class="documento" required=""  type="text">
+                    </div>
+                    <div class="titulo2 ">
+                        <label for="Documento">Usuario</label>
+                        <input class="documento" required=""  type="text">
+                    </div>                    
+                    <div class="titulo2 ">
+                        <label for="Documento">Contraseña</label>
+                        <input class="documento" required=""  type="text">
+                    </div>
+                    <div class="titulo2 ">
+                        <label for="Documento">Confirmar Contraseña</label>
+                        <input class="documento" required=""  type="text">
+                    </div>
+       
+                    <div class="titulo2 "></div>
+                    
+                    <div class="" style="z-index: 1">
+                            <button class="btn">Registar</button>
+                            <button class="btn" routerlink="/registro" tabindex="0">Cancelar</button>
+                    </div>
+                    </div></form></div>
+                    </div>
+                </div>
+</body>
+</html>
