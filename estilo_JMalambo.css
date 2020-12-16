@@ -1,13 +1,31 @@
-h1
-{
-    color : blue;
-    text-align: center;
+@charset "UTF-8";
+.cuerpo .cabecera .logo {
+    background-color: #C5D5E7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    padding-left: 8%;
+    padding-right: 0px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-div
-{
-    width: 500px;
-    padding: 15px;
-    border: 1px solid rgb(20, 14, 14);
-    margin: 0;
-    background-color: rgb(146, 138, 132);
+.cuerpo .cabecera .menu {
+    width: 80%;
+    background-color: #C2D3E7;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.cuerpo .cabecera {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.cuerpo {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+.cabecera .logo img {
 }
