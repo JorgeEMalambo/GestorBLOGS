@@ -3,15 +3,14 @@
     background-color: #C5D5E7;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 20%;
-    padding-left: 8%;
+    width: 30%;
     padding-right: 0px;
     float: left;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 .cuerpo .cabecera .menu {
-    width: 80%;
+    width: 70%;
     background-color: #C2D3E7;
     float: left;
     overflow-x: hidden;
