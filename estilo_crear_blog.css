@@ -60,5 +60,10 @@ td strong em {
     opacity: 1;
     color: rgba(6,61,136,1.00);
 }
+.footerWrapper {
+    background-image: url(imagenes/footer_background.gif);
+    background-repeat: repeat;
+    overflow: hidden;
+}
 
 
