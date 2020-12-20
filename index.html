@@ -17,14 +17,18 @@
 			</td>
 			<td style="width: 20%;">
 									
-				<table style="border-collapse: collapse; width: 100%; height: 40px;" border="1">
+				<table style="border-collapse: collapse; width: 100%; height: 40px;" border="0">
 					<tbody>
 					<tr style="height: 22px;">
 					<td style="width: 100%; height: 22px;">
 					<table style="border-collapse: collapse; width: 100%;" border="0">
 						<tbody>
 							<tr>
-								<td style="width: 50%; text-align: center;"><button Style="text-align: center; width:80px; height: 40px; " class="btn">Sing In</button></td>
+								<td style="width: 50%; text-align: center;">
+								
+			   <button Style="text-align: center; width:80px; height: 40px; " class="btn">Sing In</button>
+ 
+				</td>
 								<td style="width: 50%;text-align: center;">
 									<button Style="text-align: center; width:120px; height: 40px;border-radius: 50%;" class="btn">Nickname</button>
 								</td>
@@ -35,7 +39,16 @@
 				</tr>
 				<tr style="height: 18px;">
 					<!--IMPORTANTE ESTE ENLACE PARA LAS BUSQUEDAS-->
-					<td style="width: 100%; height: 18px;"><input type="text" name ="busqueda" required="" class="documento" placeholder="Buscar..."></td>
+					<td style="width: 100%; height: 18px;">
+														  
+				<form role="search" method="get" class="search-form" action="index.html">
+				<label>
+					<input type="search" class="search-field" placeholder="Buscar …" value="" name="s">
+				</label>
+				    <input type="hidden" name="post_type" value="post-mt_listing">
+				<input type="submit" class="search-submit" value="Buscar">
+			</form>
+																		 </td>
 				</tr>
 				</tbody>
 				</table>
