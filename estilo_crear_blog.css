@@ -1,3 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  background-image: url("imagenes/wallpaper.png");
+}
 h1
 {
     color:black;
@@ -6,13 +12,17 @@ h1
 }
 div
 {
-    width: 1100px;
+    width: 100%;
     padding: 50px;
     border: 3px solid rgb(0, 0, 0);
-    margin: 50;
+    margin: 10;
     background-color: rgb(241, 234g, 225);
     text-align: center;
-    
+}
+.logo {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    opacity: 1;
 }
 .btn{
     appearance: button;
@@ -40,4 +50,13 @@ div
     padding: .5rem 1rem;   
     line-height: 1.5;
     border-radius: .3rem;  
+}
+td strong em {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: 10px 10px 1px rgba(80,96,81,0.58);
+    opacity: 1;
+    color: rgba(6,61,136,1.00);
 }
