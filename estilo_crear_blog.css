@@ -1,87 +1,292 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
+
+
 html {
+
   background-image: url("imagenes/wallpaper.png");
+
 }
+
 h1
+
 {
+
     color:black;
+
     text-align: center;
+
     background-color: #FE6400; 
+
 }
+
 div
+
 {
+
     width: 100%;
-    padding: 10px;
-    border: 3px solid rgb(0, 0, 0);
+
     margin: 10;
-    background-color: rgb(241, 234g, 225);
-    text-align: center;
+
 }
+
 .logo {
+
     overflow-x: hidden;
+
     overflow-y: hidden;
+
     opacity: 1;
+
 }
+
 .btn{
+
     appearance: button;
+
     -webkit-writing-mode: horizontal-tb !important;
+
     text-rendering: auto;
+
     color:white;
+
     letter-spacing: normal;
+
     word-spacing: normal;
+
     text-transform: none;
+
     text-indent: 0px;
+
     text-shadow: none;
+
     display: inline-block;
+
     text-align: center;
+
     align-items: flex-start;
+
     cursor: default;
+
     box-sizing: border-box;
+
     margin: 0em;
+
     font: 400 13.3333px Arial;
+
     border-width: 2px;
+
     border-style: outset;
+
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+
     border-image: initial;
+
     background-color: #033d88!important;
+
     border-block-color: blue;
+
     padding: .5rem 1rem;   
+
     line-height: 1.5;
+
     border-radius: .3rem;  
+
 }
+
 td strong em {
+
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+
     font-size: 50px;
+
     font-weight: bolder;
+
     text-decoration: none;
+
     text-shadow: 10px 10px 1px rgba(80,96,81,0.58);
+
     opacity: 1;
+
     color: rgba(6,61,136,1.00);
+
 }
+
 .footerWrapper {
+
     background-image: url(imagenes/footer_background.gif);
+
     background-repeat: repeat;
+
 	height: 110px;
+
     overflow: hidden;
+
 	
+
 }
+
+
+
 
 
 tr td p_footer {
+
     text-align: center;
+
     text-indent: 0px;
+
     color: rgba(255,255,255,1.00);
+
     padding-left: 6px;
+
     padding-right: 12px;
+
     margin-left: 0px;
+
     clear: none;
+
     font-style: oblique;
+
     font-variant: small-caps;
+
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
 }
+
 tr td p {
+
     font-size: x-large;
+
     text-shadow: 2px 2px 5px;
+
 }
+
+
+
+.blog-list .item .post-thumb {
+
+    max-width: 110px;
+
+    border-radius: 2px;
+
+}
+
+
+
+.mr-3, .mx-3 {
+
+    margin-right: 1rem !important;
+
+    max-width: 110px;
+
+    border-radius: 2px;
+
+}
+
+.media {
+
+    display: flex;
+
+    align-items: flex-start;
+
+}
+
+
+
+*, *::before, *::after {
+
+    box-sizing: border-box;
+
+}
+
+.blog-list .item .post-thumb {
+
+    max-width: 110px;
+
+    border-radius: 2px;
+
+}
+
+
+
+
+
+.media-body {
+
+    flex: 1;
+
+}
+
+.blog-list .item .title {
+
+    font-size: 1.275rem;
+
+}
+
+
+
+.mb-1, .my-1 {
+
+    margin-bottom: .25rem !important;
+
+    width: 100%;
+
+    /* width: 42%; */
+
+    color: #292929;
+
+    text-decoration: none;
+
+    background-color: transparent;
+
+    font-weight: 500;
+
+    font-family: verdana;
+
+}
+
+.div .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+    margin-bottom: .5rem;
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    color: #292929;
+
+    width: 100%;
+
+}
+
+.blog-list .item .title a {
+
+    color: #292929;
+
+}
+
+
+
+a {
+
+    font-size: 1.5rem;
+
+    color: #292929;
+
+    text-decoration: none;
+
+    background-color: transparent;
+
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+
+}
+
+.blog-list .item .intro {
+
+    font-size: 0.875rem;
+
+}
+
